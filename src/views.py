@@ -7,5 +7,5 @@ def healthCheck():
 
     return json.dumps({
         'date': str(datetime.datetime.now()),
-        'status': True
+        'status': 'ok'
     })
